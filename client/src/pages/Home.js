@@ -28,7 +28,7 @@ const Home = () => {
     setError('');
     
     try {
-      const response = await fetch('chat.gurucharan.me/api/create-session', {
+      const response = await fetch('https://chat.gurucharan.me/api/create-session', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
