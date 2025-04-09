@@ -32,7 +32,7 @@ app.get('*', (req, res) => {
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLIENT_URL || "https://organic-space-lamp-p4r9qqv945g2r6rg-5000.app.github.dev",
+    origin: process.env.CLIENT_URL || "https://chat.gurucharan.me",
     methods: ["GET", "POST"]
   }
 });
