@@ -38,7 +38,7 @@ import {
 } from '../utils/crypto';
 
 // The server URL
-const SOCKET_SERVER_URL = 'chat.gurucharan.me';
+const SOCKET_SERVER_URL = 'https://chat.gurucharan.me';
 
 const ChatRoom = () => {
   const { sessionKey } = useParams();
